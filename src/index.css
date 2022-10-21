@@ -1,13 +1,38 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: "Arial", sans-serif;
+}
+.App {
+  text-align: center;
+  background-color: rgb(255, 215, 215);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.card {
+  border-radius: 5px;
+  height: 380px;
+  width: 240px;
+  background-color: white;
+  padding: 10px;
+  box-shadow: 8px 8px 0px 4px rgba(121, 121, 121, 0.241);
+}
+
+.image {
+  background: url("/src/images/image-qr-code.png");
+  width: 230px;
+  height: 230px;
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.heading {
+  font-size: 18px;
+}
+
+.content {
+  font-size: 16px;
+  color: rgb(83, 83, 83);
 }
